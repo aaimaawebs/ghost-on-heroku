@@ -11,7 +11,14 @@
     }
   },
   "mail": {
-    "transport": "Direct"
+    "transport": "SMTP",
+    "options": {
+      "service": "Mailgun",
+      "auth": {
+        "user": "postmaster@engagement.aaimaa.org",
+        "pass": "397243e7f63392db686522e0672036c8-47317c98-2ad17898"
+      }
+    }
   },
   "logging": {
     "transports": [
